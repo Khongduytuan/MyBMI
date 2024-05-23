@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundApp"
+    android:layout_height="match_parent"
+    tools:context=".PayScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please purchase your usage here"
+        android:textColor="@color/textButton"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buy_5"
+        android:text="Buy 5 Use"
+        android:background="@color/button"
+        android:textColor="@color/textButton"
+        android:textSize="24sp"
+        android:padding="4sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buy_10"
+        android:text="Buy 10 Use"
+        android:background="@color/button"
+        android:textColor="@color/textButton"
+        android:textSize="24sp"
+        android:padding="4sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buy_15"
+        android:text="Buy 15 Use"
+        android:background="@color/button"
+        android:textColor="@color/textButton"
+        android:textSize="24sp"
+        android:padding="4sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:text="Register Long Time"
+        android:background="@color/button"
+        android:textColor="@color/textButton"
+        android:textSize="24sp"
+        android:padding="4sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:text="Finish"
+        android:background="@color/button"
+        android:textColor="@color/textButton"
+        android:textSize="24sp"
+        android:padding="4sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundApp">#BEE0EF</color>
+    <color name="backgroundItem">#7185F1</color>
+    <color name="button">#1830B1</color>
+    <color name="textButton">#FF9800</color>
+    <color name="level1">#F40D0D</color>
+    <color name="level2">#11ED1A</color>
+    <color name="level3">#2196F3</color>
+    <color name="selected_background">#FFCC00</color>
+    <color name="default_background">#FFFFFF</color>
+
+
+</resources>
